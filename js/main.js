@@ -11,7 +11,11 @@ requirejs.config({
 	}
 });
 
-requirejs(["lib/three.min", "Game"], function(three, Game) {
+requirejs(["lib/three.min", "Game"], function (three, Game) {
+	var preloader = document.getElementsByClassName('preloader')[0];
+	preloader.remove();
+
 	var game = new Game();
+	// something is loading
 	game.init();
 });
