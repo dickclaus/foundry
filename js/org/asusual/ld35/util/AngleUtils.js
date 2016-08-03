@@ -9,5 +9,7 @@ define(function() {
 
 	AngleUtils.toRad = function(deg) {
 		return deg * Math.PI / 180;
-	}
+	};
+
+	return AngleUtils;
 });

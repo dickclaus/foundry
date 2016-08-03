@@ -4,9 +4,9 @@ define(["util/MathUtils", "lib/Stats", "config/Config", "util/FunctionUtils", "c
 	function Game() {
 		FunctionUtils.bindAll(this);
 
-		var keyboardController = new KeyboardController(document.body);
-		keyboardController.addEventListener(KeyboardController.DOWN, this.onDownHandler);
-		keyboardController.addEventListener(KeyboardController.UP, this.onUpHandler);
+		//var keyboardController = new KeyboardController(document.body);
+		//keyboardController.addEventListener(KeyboardController.DOWN, this.onDownHandler);
+		//keyboardController.addEventListener(KeyboardController.UP, this.onUpHandler);
 	}
 
 	Game.prototype.init = function () {
